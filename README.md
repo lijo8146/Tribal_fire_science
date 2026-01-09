@@ -49,7 +49,7 @@ This resource is intended to:
 | NARR / ERA5 Reanalysis | Atmospheric variables for modeling | **[NOAA NARR][narr]**, **[ERA5][era5]** | Hourly to 3-hourly |
 
 ## Modeling-Ready Inputs
-For use with **[FlamMap][flammap]**, **[BehavePlus][behaveplus]**, or **[OpenWFM][openwfm]**.
+For use with **[FlamMap][flammap]**, **[Behave7][behave7]**, or **[OpenWFM][openwfm]**.
 
 | Input Layer | Typical Source |
 |-----------|----------------|

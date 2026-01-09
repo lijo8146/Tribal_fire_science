@@ -4,7 +4,7 @@ This repository provides a curated reference of **open datasets, tools, and work
 
 ## Quick Links
 
-- [WORKFLOWS](#workflows.md) for Tribal fire modeling
+- [Workflows](https://github.com/lijo8146/Tribal_fire_science/blob/main/workflows.md) for Tribal fire modeling
 - [Datasets](#base-geospatial-layers)
 - [Analytical Tools & Platforms](#analytical-tools--platforms)
 - [Ethical & Governance Considerations](#data-access--governance)

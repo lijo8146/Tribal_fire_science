@@ -1,7 +1,7 @@
 # Tribal Fire Mapping and Modeling: North America Datasets
 
 This guide lists **open datasets and tools** that support **Tribal-led fire management, modeling, and research** across North America. It emphasizes spatial fire science while respecting **Tribal data sovereignty principles** and Indigenous governance.
----
+
 
 ## Base Geospatial Layers
 
@@ -11,8 +11,6 @@ This guide lists **open datasets and tools** that support **Tribal-led fire mana
 | Elevation / Terrain | USGS 3DEP, SRTM 30 m DEM | North America | Use for slope, aspect, and terrain-driven fire spread modeling. |
 | Hydrology / Watersheds | USGS NHDPlus, Canadian Hydrographic Service | Continental | Important for fire breaks, riparian zones, and smoke transport. |
 | Land Cover / Vegetation | LANDFIRE EVT/EVC, NLCD, ESA CCI Land Cover | North America | Vegetation composition and structure for fuels and fire behavior modeling. |
-
----
 
 ## Fire History & Activity
 
@@ -24,8 +22,6 @@ This guide lists **open datasets and tools** that support **Tribal-led fire mana
 | Canadian Wildland Fire Information System (CWFIS) | National fire database and near-real-time maps | CWFIS | 1980–present |
 | NASA FIRMS (MODIS & VIIRS) | Daily active fire detections (global) | FIRMS | 2000–present |
 
----
-
 ## Fuels, Vegetation, and Fire Behavior Inputs
 
 | Dataset | Description | Source |
@@ -34,8 +30,6 @@ This guide lists **open datasets and tools** that support **Tribal-led fire mana
 | USFS Forest Inventory and Analysis (FIA) | Tree composition and structure data | FIA |
 | Canadian Forest Service Fuel Type Maps | Fuel classification for Canada | NRCan Open Data |
 | NDVI / EVI Time Series | Vegetation greenness and drought stress | MODIS, Sentinel-2 (via Google Earth Engine) |
-
----
 
 ## Weather & Climate
 
@@ -46,8 +40,6 @@ This guide lists **open datasets and tools** that support **Tribal-led fire mana
 | RAWS | Remote Automated Weather Stations | MesoWest RAWS Archive | Point-based; live |
 | North American Drought Monitor | U.S.–Canada–Mexico drought extent | NOAA / CEC | Monthly |
 | NARR / ERA5 Reanalysis | Atmospheric variables for wind & humidity | NOAA, Copernicus | Hourly to 3-hourly |
-
----
 
 ## Modeling-Ready Inputs
 
@@ -61,8 +53,6 @@ For use with **FARSITE, FlamMap, BehavePlus, or OpenWFM**.
 | Wind & Weather Grids | GRIDMET or RAWS |
 | Moisture / Drought Indices | PRISM, GRIDMET, NADM |
 
----
-
 ## Cultural and Ecological Integration (With Permission)
 
 | Data Type | Source / Method | Notes |
@@ -70,8 +60,6 @@ For use with **FARSITE, FlamMap, BehavePlus, or OpenWFM**.
 | Cultural Burning Sites / Traditional Use Areas | Tribal GIS or Cultural Preservation Offices | Highly sensitive; require governance agreements. |
 | Ecocultural Plant Distributions (e.g., sweetgrass, bear root) | Tribal data, ethnobotany surveys, GBIF species records | Supports fire planning that enables cultural regeneration. |
 | Wildlife & Habitat Overlays | USGS GAP Analysis, NatureServe Explorer | Aligns fire management with ecological and species goals. |
-
----
 
 ## Analytical Tools & Platforms
 
@@ -83,16 +71,12 @@ For use with **FARSITE, FlamMap, BehavePlus, or OpenWFM**.
 | Python / R Packages | Modeling and data fusion (e.g., `rasterio`, `geemap`, `terra`, `sf`) | Reproducible workflows |
 | Indigenous Data Cube Framework | Earth observation under Tribal governance | Customizable; aligns with CARE principles |
 
----
-
 ## Ethical & Sovereignty Considerations
 
 - Follow **Tribal data governance protocols** and establish MOUs before mapping culturally significant areas.
 - Apply **CARE Principles**: Collective Benefit, Authority to Control, Responsibility, Ethics.
 - Respect **OCAP®** (Ownership, Control, Access, Possession) for First Nations data in Canada.
 - Attribute all data sources appropriately and **maintain Tribal control** over sensitive spatial layers.
-
----
 
 This reference is intended as a **starting point** for North American Tribal fire research, mapping, and modeling projects, supporting Indigenous-led stewardship and non-extractive science.
 

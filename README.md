@@ -1,49 +1,55 @@
-# Tribal Fire Mapping and Modeling: North America Datasets
+# Tribal Fire Mapping & Modeling: North America Datasets
 
-This guide lists **open datasets and tools** that support **Tribal-led fire management, modeling, and research** across North America. It emphasizes spatial fire science while respecting **Tribal data sovereignty principles** and Indigenous governance.
+This repository provides a curated reference of **open datasets, tools, and workflows** that support **Tribal-led fire management, mapping, modeling, and research** across North America. The focus is on **spatial fire science** (fire history, fuels, weather, and modeling inputs) while explicitly respecting **Tribal data sovereignty, governance, and ethical use**.
 
+## Purpose and Scope
+
+This resource is intended to:
+- Support **Tribal Nations and Indigenous communities** in wildfire planning, cultural burning, and resilience work
+- Enable **reproducible, transparent fire modeling** using open tools
+- Reduce reliance on extractive or proprietary platforms
+- Encourage **reciprocity and accountability** when software is used in networked or hosted services
 
 ## Base Geospatial Layers
 
 | Layer | Source | Coverage | Notes |
 |------|-------|----------|-------|
-| Tribal Lands / Reservations | BIA Tribal Boundaries (U.S.), Native Land Digital | U.S., Canada | Define sovereign lands and cultural areas. Always confirm with local Tribal GIS offices. |
-| Elevation / Terrain | USGS 3DEP, SRTM 30 m DEM | North America | Use for slope, aspect, and terrain-driven fire spread modeling. |
-| Hydrology / Watersheds | USGS NHDPlus, Canadian Hydrographic Service | Continental | Important for fire breaks, riparian zones, and smoke transport. |
-| Land Cover / Vegetation | LANDFIRE EVT/EVC, NLCD, ESA CCI Land Cover | North America | Vegetation composition and structure for fuels and fire behavior modeling. |
+| Tribal Lands / Reservations | **[BIA Tribal Boundaries][bia]**, **[Native Land Digital][native-land]** | U.S., Canada | Define sovereign lands and cultural areas. Always confirm with local Tribal GIS offices. |
+| Elevation / Terrain | **[USGS 3DEP][usgs-3dep]**, **[SRTM][srtm]** | North America | Use for slope, aspect, and terrain-driven fire spread modeling. |
+| Hydrology / Watersheds | **[USGS NHDPlus][nhdplus]**, **[Canadian Hydrographic Service][chs]** | Continental | Important for fire breaks, riparian zones, and smoke transport. |
+| Land Cover / Vegetation | **[LANDFIRE EVT/EVC][landfire]**, **[NLCD][nlcd]**, **[ESA CCI Land Cover][cci]** | North America | Vegetation composition and structure for fuels and fire behavior modeling. |
 
 ## Fire History & Activity
 
 | Dataset | Description | Source | Temporal Coverage |
 |-------|-------------|--------|------------------|
-| MTBS | Burn severity and perimeters for large fires | MTBS.gov | 1984–present |
-| NIFC Historical Fire Perimeters | National multi-agency perimeter dataset | data.nifc.gov | 1990–present |
-| FRAP Fire Perimeters | Western U.S. wildfire polygons | CAL FIRE FRAP | 1878–present |
-| Canadian Wildland Fire Information System (CWFIS) | National fire database and near-real-time maps | CWFIS | 1980–present |
-| NASA FIRMS (MODIS & VIIRS) | Daily active fire detections (global) | FIRMS | 2000–present |
+| MTBS | Burn severity and perimeters for large fires | **[MTBS][mtbs]** | 1984–present |
+| NIFC Historical Fire Perimeters | National multi-agency fire perimeter dataset | **[NIFC][nifc]** | 1990–present |
+| FRAP Fire Perimeters | Western U.S. wildfire polygons | **[CAL FIRE FRAP][frap]** | 1878–present |
+| Canadian Wildland Fire Information System | National fire database and near-real-time maps | **[CWFIS][cwfis]** | 1980–present |
+| NASA FIRMS (MODIS & VIIRS) | Daily active fire detections (global) | **[NASA FIRMS][firms]** | 2000–present |
 
 ## Fuels, Vegetation, and Fire Behavior Inputs
 
 | Dataset | Description | Source |
 |-------|-------------|--------|
-| LANDFIRE Fuel Models (FBFM40, FCCS) | Fire behavior fuel models for the U.S. | LANDFIRE.gov |
-| USFS Forest Inventory and Analysis (FIA) | Tree composition and structure data | FIA |
-| Canadian Forest Service Fuel Type Maps | Fuel classification for Canada | NRCan Open Data |
-| NDVI / EVI Time Series | Vegetation greenness and drought stress | MODIS, Sentinel-2 (via Google Earth Engine) |
+| LANDFIRE Fuel Models (FBFM40, FCCS) | Fire behavior fuel models (U.S.) | **[LANDFIRE][landfire]** |
+| USFS Forest Inventory and Analysis (FIA) | Tree composition and structure data | **[FIA][fia]** |
+| Canadian Forest Service Fuel Type Maps | National fuel classifications | **[NRCan Open Data][nrcan]** |
+| NDVI / EVI Time Series | Vegetation greenness and drought stress | **[MODIS][modis]**, **[Sentinel-2][sentinel2]** via **[Google Earth Engine][gee]** |
 
 ## Weather & Climate
 
 | Dataset | Description | Source | Spatial / Temporal Resolution |
 |-------|-------------|--------|-------------------------------|
-| GRIDMET | Daily gridded weather data | GRIDMET | 4 km; 1979–present |
-| PRISM | Historical and near-real-time climate normals | PRISM | 4 km; 1895–present |
-| RAWS | Remote Automated Weather Stations | MesoWest RAWS Archive | Point-based; live |
-| North American Drought Monitor | U.S.–Canada–Mexico drought extent | NOAA / CEC | Monthly |
-| NARR / ERA5 Reanalysis | Atmospheric variables for wind & humidity | NOAA, Copernicus | Hourly to 3-hourly |
+| GRIDMET | Daily gridded weather data | **[GRIDMET][gridmet]** | 4 km; 1979–present |
+| PRISM | Historical and near-real-time climate data | **[PRISM][prism]** | 4 km; 1895–present |
+| RAWS | Remote Automated Weather Stations | **[MesoWest RAWS][raws]** | Point-based; live |
+| North American Drought Monitor | Tri-national drought synthesis | **[NADM][nadm]** | Monthly |
+| NARR / ERA5 Reanalysis | Atmospheric variables for modeling | **[NOAA NARR][narr]**, **[ERA5][era5]** | Hourly to 3-hourly |
 
 ## Modeling-Ready Inputs
-
-For use with **FARSITE, FlamMap, BehavePlus, or OpenWFM**.
+For use with **[FlamMap][flammap]**, **[BehavePlus][behaveplus]**, or **[OpenWFM][openwfm]**.
 
 | Input Layer | Typical Source |
 |-----------|----------------|
@@ -57,26 +63,72 @@ For use with **FARSITE, FlamMap, BehavePlus, or OpenWFM**.
 
 | Data Type | Source / Method | Notes |
 |---------|----------------|-------|
-| Cultural Burning Sites / Traditional Use Areas | Tribal GIS or Cultural Preservation Offices | Highly sensitive; require governance agreements. |
-| Ecocultural Plant Distributions (e.g., sweetgrass, bear root) | Tribal data, ethnobotany surveys, GBIF species records | Supports fire planning that enables cultural regeneration. |
-| Wildlife & Habitat Overlays | USGS GAP Analysis, NatureServe Explorer | Aligns fire management with ecological and species goals. |
+| Cultural Burning Sites / Traditional Use Areas | Tribal GIS or Cultural Preservation Offices | Highly sensitive; requires explicit governance agreements. |
+| Ecocultural Plant Distributions (e.g., sweetgrass, bear root) | Tribal data, ethnobotany surveys, **[GBIF][gbif]** | Supports fire planning that enables cultural regeneration. |
+| Wildlife & Habitat Overlays | **[USGS GAP Analysis][gap]**, **[NatureServe][natureserve]** | Aligns fire management with ecological goals. |
 
 ## Analytical Tools & Platforms
 
 | Tool | Use | Access |
 |----|-----|--------|
-| FARSITE / FlamMap / BehavePlus | Fire spread and behavior modeling | FireLab |
+| FARSITE / FlamMap / BehavePlus | Fire spread and behavior modeling | **[FireLab][firelab]** |
 | QGIS / ArcGIS Pro | Spatial analysis and map creation | Open-source or licensed |
-| Google Earth Engine | Cloud-based remote sensing and fire/NDVI trend analysis | Free for research |
-| Python / R Packages | Modeling and data fusion (e.g., `rasterio`, `geemap`, `terra`, `sf`) | Reproducible workflows |
-| Indigenous Data Cube Framework | Earth observation under Tribal governance | Customizable; aligns with CARE principles |
+| Google Earth Engine | Cloud-based remote sensing and trend analysis | Free for research |
+| Python / R Packages | Data processing and modeling (`rasterio`, `geemap`, `terra`, `sf`) | Reproducible workflows |
+| Indigenous Data Cube Framework | EO data under Tribal governance | CARE-aligned, customizable |
 
-## Ethical & Sovereignty Considerations
+## Data Access & Governance
 
-- Follow **Tribal data governance protocols** and establish MOUs before mapping culturally significant areas.
-- Apply **CARE Principles**: Collective Benefit, Authority to Control, Responsibility, Ethics.
-- Respect **OCAP®** (Ownership, Control, Access, Possession) for First Nations data in Canada.
-- Attribute all data sources appropriately and **maintain Tribal control** over sensitive spatial layers.
+This repository **does not assert authority over Tribal data**. Any inclusion of culturally significant, sensitive, or place-based knowledge **must be governed by the relevant Tribal Nation(s)**.
 
-This reference is intended as a **starting point** for North American Tribal fire research, mapping, and modeling projects, supporting Indigenous-led stewardship and non-extractive science.
+Users of this repository are expected to:
+- Establish **MOUs or Data Governance Agreements** before mapping cultural sites
+- Apply the **CARE Principles**: Collective Benefit, Authority to Control, Responsibility, Ethics
+- Respect **OCAP®** (Ownership, Control, Access, Possession) for First Nations data in Canada
+- Maintain **Tribal control over access, sharing, and reuse** of sensitive spatial layers
+
+Open data does **not** imply unrestricted use.
+
+## License and Intent
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0-or-later)**.
+The intent of this license choice is to ensure that this software remains **freely available for Tribal Nations and Indigenous communities**, while preventing its use in **extractive commercial software-as-a-service models** without contributing improvements back to the community.
+Commercial entities may use this software **only in compliance with the AGPL**, including the obligation to make source code available to users when the software is used to provide networked services.
+See the `LICENSE` file for full terms.
+
+## External Data & Tool References
+
+[bia]: https://www.bia.gov/service/geospatial-data
+[native-land]: https://native-land.ca
+[usgs-3dep]: https://www.usgs.gov/3d-elevation-program
+[srtm]: https://www2.jpl.nasa.gov/srtm
+[nhdplus]: https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus
+[chs]: https://www.charts.gc.ca
+[landfire]: https://landfire.gov
+[nlcd]: https://www.mrlc.gov
+[cci]: https://www.esa-landcover-cci.org
+[mtbs]: https://www.mtbs.gov
+[nifc]: https://data.nifc.gov
+[frap]: https://frap.fire.ca.gov
+[cwfis]: https://cwfis.cfs.nrcan.gc.ca
+[firms]: https://firms.modaps.eosdis.nasa.gov
+[fia]: https://www.fia.fs.usda.gov
+[nrcan]: https://open.canada.ca
+[modis]: https://modis.gsfc.nasa.gov
+[sentinel2]: https://sentinels.copernicus.eu
+[gee]: https://earthengine.google.com
+[gridmet]: https://www.climatologylab.org/gridmet.html
+[prism]: https://prism.oregonstate.edu
+[raws]: https://mesowest.utah.edu
+[nadm]: https://droughtmonitor.unl.edu
+[narr]: https://www.ncei.noaa.gov/products/weather-climate-models/narr
+[era5]: https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5
+[flammap]: https://www.firelab.org/project/flammap
+[behaveplus]: https://www.firelab.org/project/behaveplus
+[openwfm]: https://github.com/openwfm
+[gbif]: https://www.gbif.org
+[gap]: https://www.usgs.gov/programs/gap-analysis-project
+[natureserve]: https://explorer.natureserve.org
+[firelab]: https://www.firelab.org
+
 

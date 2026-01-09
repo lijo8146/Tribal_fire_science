@@ -71,7 +71,7 @@ For use with **[FlamMap][flammap]**, **[BehavePlus][behaveplus]**, or **[OpenWFM
 
 | Tool | Use | Access |
 |----|-----|--------|
-| FARSITE / FlamMap / BehavePlus | Fire spread and behavior modeling | **[FireLab][firelab]** |
+| FARSITE / FlamMap / Behave7 | Fire spread and behavior modeling | **[FireLab][firelab]** |
 | ICS-209+ | Aggregated fire incident reports for analysis | **[ICS-209+][ics209]** |
 | FiredPy | Python CLI for classifying fire events from the MODIS Burned Area Product. | **[FiredPy][firedpy]** |
 | QGIS / ArcGIS Pro | Spatial analysis and map creation | Open-source or licensed |

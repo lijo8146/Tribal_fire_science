@@ -2,6 +2,14 @@
 
 This repository provides a curated reference of **open datasets, tools, and workflows** that support **Tribal-led fire management, mapping, modeling, and research** across North America. The focus is on **spatial fire science** (fire history, fuels, weather, and modeling inputs) while explicitly respecting **Tribal data sovereignty, governance, and ethical use**.
 
+## Quick Links
+
+- [WORKFLOWS](WORKFLOWS.md) – Detailed workflows for Tribal fire modeling
+- [Datasets](#base-geospatial-layers)
+- [Analytical Tools & Platforms](#analytical-tools--platforms)
+- [Ethical & Governance Considerations](#data-access--governance)
+- [License](#license-and-intent)
+
 ## Purpose and Scope
 
 This resource is intended to:

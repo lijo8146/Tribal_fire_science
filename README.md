@@ -72,10 +72,13 @@ For use with **[FlamMap][flammap]**, **[BehavePlus][behaveplus]**, or **[OpenWFM
 | Tool | Use | Access |
 |----|-----|--------|
 | FARSITE / FlamMap / BehavePlus | Fire spread and behavior modeling | **[FireLab][firelab]** |
+| ICS-209+ | Aggregated fire incident reports for analysis | **[ICS-209+][ics209]** |
+| FiredPy | Python CLI for classifying fire events from the MODIS Burned Area Product. | **[FiredPy][firedpy]** |
 | QGIS / ArcGIS Pro | Spatial analysis and map creation | Open-source or licensed |
 | Google Earth Engine | Cloud-based remote sensing and trend analysis | Free for research |
 | Python / R Packages | Data processing and modeling (`rasterio`, `geemap`, `terra`, `sf`) | Reproducible workflows |
-| Indigenous Data Cube Framework | EO data under Tribal governance | CARE-aligned, customizable |
+| Indigenous Data Cube Framework | EO data under Tribal governance | Indigenous data sovereignty-aligned, customizable |
+
 
 ## Data Access & Governance
 

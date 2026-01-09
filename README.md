@@ -100,7 +100,6 @@ Commercial entities may use this software **only in compliance with the AGPL**, 
 See the `LICENSE` file for full terms.
 
 ## External Data & Tool References
-
 [bia]: https://www.bia.gov/bia/ots/dris/bogs
 [native-land]: https://native-land.ca
 [usgs-3dep]: https://www.usgs.gov/3d-elevation-program
@@ -126,12 +125,12 @@ See the `LICENSE` file for full terms.
 [nadm]: https://droughtmonitor.unl.edu
 [narr]: https://www.ncei.noaa.gov/products/weather-climate-models/narr
 [era5]: https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5
-[flammap]: https://www.firelab.org/project/flammap
-[behaveplus]: https://www.firelab.org/project/behaveplus
+[flammap]: https://research.fs.usda.gov/firelab/projects/flammap
+[behave7]: https://www.frames.gov/behave/home
 [openwfm]: https://github.com/openwfm
 [gbif]: https://www.gbif.org
 [gap]: https://www.usgs.gov/programs/gap-analysis-project
 [natureserve]: https://explorer.natureserve.org
-[firelab]: https://www.firelab.org
+[firelab]: https://research.fs.usda.gov/firelab/products/dataandtools
 
 

@@ -92,7 +92,8 @@ For use with **[FlamMap][flammap]**, **[Behave7][behave7]**, or **[OpenWFM][open
 
 This repository **does not assert authority over Tribal data**. Any inclusion of culturally significant, sensitive, or place-based knowledge **must be governed by the relevant Tribal Nation(s)**.
 
-Users of this repository are expected to:
+Users are expected to:
+
 - Establish **MOUs or Data Governance Agreements** before mapping cultural sites
 - Apply the **CARE Principles**: Collective Benefit, Authority to Control, Responsibility, Ethics
 - Respect **OCAP®** (Ownership, Control, Access, Possession) for First Nations data in Canada
@@ -100,11 +101,21 @@ Users of this repository are expected to:
 
 Open data does **not** imply unrestricted use.
 
-## License and Intent
+## Workflows
+Workflows for Tribal fire modeling are documented in **[workflows.md](WORKFLOWS.md)**.  
+This includes:
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0-or-later)**.
-The intent of this license choice is to ensure that this software remains **freely available for Tribal Nations and Indigenous communities**, while preventing its use in **extractive commercial software-as-a-service models** without contributing improvements back to the community.
-Commercial entities may use this software **only in compliance with the AGPL**, including the obligation to make source code available to users when the software is used to provide networked services.
+- Historical fire analysis & risk mapping  
+- Fire behavior simulation  
+- Cultural & ecological impact analysis  
+- Real-time fire monitoring & early warning  
+- Prescribed burn planning & optimization  
+- Climate change & fire regime projection  
+- Multi-scale decision support dashboards  
+
+## License and Intent
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0-or-later)**. 
+The intent of this license is to ensure the software remains **freely available for Tribal Nations and Indigenous communities**, while preventing **extractive commercial use without contributing improvements back**.
 See the `LICENSE` file for full terms.
 
 ## External Data & Tool References

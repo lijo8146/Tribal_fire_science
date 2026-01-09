@@ -16,7 +16,7 @@ This resource is intended to:
 |------|-------|----------|-------|
 | Tribal Lands / Reservations | **[BIA Tribal Boundaries][bia]**, **[Native Land Digital][native-land]** | U.S., Canada | Define sovereign lands and cultural areas. Always confirm with local Tribal GIS offices. |
 | Elevation / Terrain | **[USGS 3DEP][usgs-3dep]**, **[SRTM][srtm]** | North America | Use for slope, aspect, and terrain-driven fire spread modeling. |
-| Hydrology / Watersheds | **[USGS NHDPlus][nhdplus]**, **[Canadian Hydrographic Service][chs]** | Continental | Important for fire breaks, riparian zones, and smoke transport. |
+| Hydrology / Watersheds | **[USGS NHDPlus][nhdplus]** | Continental | Important for fire breaks, riparian zones, and smoke transport. |
 | Land Cover / Vegetation | **[LANDFIRE EVT/EVC][landfire]**, **[NLCD][nlcd]**, **[ESA CCI Land Cover][cci]** | North America | Vegetation composition and structure for fuels and fire behavior modeling. |
 
 ## Fire History & Activity
@@ -101,24 +101,24 @@ See the `LICENSE` file for full terms.
 
 ## External Data & Tool References
 
-[bia]: https://www.bia.gov/service/geospatial-data
+[bia]: https://www.bia.gov/bia/ots/dris/bogs
 [native-land]: https://native-land.ca
 [usgs-3dep]: https://www.usgs.gov/3d-elevation-program
-[srtm]: https://www2.jpl.nasa.gov/srtm
+[srtm]: https://www.earthdata.nasa.gov/data/instruments/srtm/data-access-tools
 [nhdplus]: https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus
 [chs]: https://www.charts.gc.ca
 [landfire]: https://landfire.gov
 [nlcd]: https://www.mrlc.gov
 [cci]: https://www.esa-landcover-cci.org
 [mtbs]: https://www.mtbs.gov
-[nifc]: https://data.nifc.gov
+[nifc]: https://data-nifc.opendata.arcgis.com
 [frap]: https://frap.fire.ca.gov
 [cwfis]: https://cwfis.cfs.nrcan.gc.ca
 [firms]: https://firms.modaps.eosdis.nasa.gov
-[fia]: https://www.fia.fs.usda.gov
-[nrcan]: https://open.canada.ca
+[fia]: https://research.fs.usda.gov/programs/fia#data-and-tools
+[nrcan]: https://natural-resources.canada.ca
 [modis]: https://modis.gsfc.nasa.gov
-[sentinel2]: https://sentinels.copernicus.eu
+[sentinel2]: https://browser.dataspace.copernicus.eu/?zoom=11&lat=45.36638&lng=12.49832&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX19cM7M9JGT%2F5YjyMebnBleEP4c7p0edvL3GFdexxtXHjlPR1gjilU9MzKmGyrm4PHbDK6JStx3qsH42QR%2BSh5TjlWwPEvIQXWsPAYBmqCsr1HXfL6sd0Yq6&datasetId=S2_L1C_CDAS&fromTime=2023-02-07T00%3A00%3A00.000Z&toTime=2023-02-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D="MAPZEN"&cloudCoverage=10&dateMode=SINGLE
 [gee]: https://earthengine.google.com
 [gridmet]: https://www.climatologylab.org/gridmet.html
 [prism]: https://prism.oregonstate.edu

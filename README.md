@@ -7,7 +7,7 @@ This repository provides a curated reference of **open datasets, tools, and work
 - [Workflows](#workflows)
 - [Datasets](#base-geospatial-layers)
 - [Analytical Tools & Platforms](#analytical-tools--platforms)
-- [Ethical & Governance Considerations](#data-access--governance)
+- [Ethical and Governance Considerations](#data-access--governance)
 - [License](#license-and-intent)
 
 ## Purpose and Scope

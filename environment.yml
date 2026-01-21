@@ -1,0 +1,34 @@
+# environment.yml
+name: tribal-fast-fires
+channels:
+  - conda-forge
+
+dependencies:
+  # Core Python
+  - python=3.11
+
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Geospatial stack
+  - geopandas>=0.14
+  - pyogrio
+  - shapely>=2.0
+  - fiona
+  - proj
+  - pyproj
+  - rtree
+
+  # Raster & arrays
+  - rasterio
+  - xarray
+  - netcdf4
+  - dask
+
+  # Data access
+  - requests
+  - ce
+
+## This notebook by created using the earth-analytics-python environment created at Earth Lab. You can download the environment here: or use the suggested environment.yml to run this workflow. 

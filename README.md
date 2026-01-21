@@ -4,7 +4,7 @@ This repository provides a curated reference of **open datasets, tools, and work
 
 ## Quick Links
 
-- [Workflows](#workflows) for Tribal fire modeling
+- [Workflows](#workflows)
 - [Datasets](#base-geospatial-layers)
 - [Analytical Tools & Platforms](#analytical-tools--platforms)
 - [Ethical & Governance Considerations](#data-access--governance)
@@ -46,7 +46,7 @@ This resource is intended to:
 | Canadian Forest Service Fuel Type Maps | National fuel classifications | **[NRCan Open Data][nrcan]** |
 | NDVI / EVI Time Series | Vegetation greenness and drought stress | **[MODIS][modis]**, **[Sentinel-2][sentinel2]** via **[Google Earth Engine][gee]** |
 
-## Weather & Climate
+## Weather and Climate
 
 | Dataset | Description | Source | Spatial / Temporal Resolution |
 |-------|-------------|--------|-------------------------------|
